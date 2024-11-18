@@ -1,0 +1,15 @@
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/bin/Debug/net7.0/PizzaFamily
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/bin/Debug/net7.0/PizzaFamily.deps.json
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/bin/Debug/net7.0/PizzaFamily.runtimeconfig.json
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/bin/Debug/net7.0/PizzaFamily.dll
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/bin/Debug/net7.0/PizzaFamily.pdb
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.csproj.AssemblyReference.cache
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.AssemblyInfoInputs.cache
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.AssemblyInfo.cs
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.csproj.CoreCompileInputs.cache
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.dll
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/refint/PizzaFamily.dll
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.pdb
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/PizzaFamily.genruntimeconfig.cache
+/Users/fayadidrissbacari/Desktop/Projet/PizzaFamily/PizzaFamily/PizzaFamily/obj/Debug/net7.0/ref/PizzaFamily.dll
