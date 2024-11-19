@@ -3,7 +3,7 @@
 namespace PizzaFamily
 {
     /// <summary>
-    /// Ceci est une implémentation du message traditionnel « Hello world! »
+    /// Ceci est une implémentation du message traditionnel
     /// </summary>
     public class PizzaFamily
     {
@@ -15,6 +15,7 @@ namespace PizzaFamily
             // Les des Pizza à afficher par défault
             var pizzas = new List<Pizza>()
             {
+                new PizzaPersonnalisee(),
                 new Pizza("Carnivore", 14, false, new List<string> {"Sauce tomate, Fromage, Steak, jambon"}),
                 new Pizza("3 fromages", 8, true, new List<string> {"Sauce tomate, Fromage de chevre, Gouda, Fromage blue"}),
                 new Pizza("Boisée", 12, false, new List<string> {"Sauce fromagère, Fromage, Escalope, Poivron"}),
