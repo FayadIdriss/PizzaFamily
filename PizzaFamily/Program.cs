@@ -12,25 +12,25 @@ namespace PizzaFamily
         /// </summary>
         public static void Main(string[] args)
         {
-            Pizza myPizza1 = new Pizza("Boisé", 12, false, new List<string>
-            { "Crème Fraiche ", "Escalope ", "Poivron "});
-            myPizza1.Afficher();
+            // Les des Pizza à afficher par défault
+            var pizzas = new List<Pizza>()
+            {
+                new Pizza("Carnivore", 14, false, new List<string> {"Sauce tomate, Fromage, Steak, jambon"}),
+                new Pizza("3 fromages", 8, true, new List<string> {"Sauce tomate, Fromage de chevre, Gouda, Fromage blue"}),
+                new Pizza("Boisée", 12, false, new List<string> {"Sauce fromagère, Fromage, Escalope, Poivron"}),
+                new Pizza("Végé", 11, true, new List<string>{"Sauce verte, Fromage, Steack Végie, Falafels"}),
+                new Pizza("Reine", 12, false, new List<string>{"Sauce tomate, Fromage, Jambon, Chorizo, Escalope de dinde"})
+            };
 
-            Pizza myPizza2 = new Pizza("Végétarien", 10, true, new List<string>
-            {"Sauce Tomate ", "Steak Végé ", " Falafel"});
-            myPizza2.Afficher();
 
-            Pizza myPizza3 = new Pizza("Reine", 12, false, new List<string>
-            {"Sauce tomate ", "Fromage ", "Jambon ", "Chorizo ", "Dinde " });
-            myPizza3.Afficher();
+            // Tri des produits par prix du plus grand au plus petit
+            var pizzaTries = pizzas.OrderBy(p => p.prix).ToList();
 
-            Pizza myPizza4 = new Pizza("Chèvre Miel", 10, true, new List<string>
-            {"Sauce crème ", "Chevre ", "Miel " });
-            myPizza4.Afficher();
-
-            Pizza myPizza5 = new Pizza("Cannibale", 14, false, new List<String>
-            {"Sauce tomate ", "Steak ", "Fromage" });
-            myPizza5.Afficher();
+            // Affichage des produits triés
+            foreach (var pizza in pizzaTries)
+            {
+                pizza.Afficher();
+            }
         }
     }
 }
